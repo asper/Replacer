@@ -9,7 +9,7 @@ class ReplacerReplacement extends ReplacerAppModel {
 	);
 	
 	public $hasAndBelongsToMany = array(
-		'Replacer.ReplacerScope'
+		'ReplacerScope'
 	);
 
 	public function replace($content = null){
