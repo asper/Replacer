@@ -40,5 +40,7 @@ Usage
 
 Replacer Plugin is composed of 2 main sections `Replacements` and `Scopes`
 
-`Replacements` are used 
+`Replacements` let you substitute strings in output using regular expressions
+
+`Scopes` let you choose where these substitutions should occur
 	
