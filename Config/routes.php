@@ -7,7 +7,7 @@ Router::connect('/admin/replacer/replacements', array(
 	'action' => 'index'
 ));
 
-Router::connect('/admin/replacer/replacements/*', array(
+Router::connect('/admin/replacer/replacements/:action/*', array(
 	'admin' => true,
 	'plugin' => 'replacer',
 	'controller' => 'replacer_replacements'
@@ -20,7 +20,7 @@ Router::connect('/admin/replacer/scopes', array(
 	'action' => 'index'
 ));
 
-Router::connect('/admin/replacer/scopes/*', array(
+Router::connect('/admin/replacer/scopes/:action/*', array(
 	'admin' => true,
 	'plugin' => 'replacer',
 	'controller' => 'replacer_scopes'
