@@ -1,7 +1,12 @@
 Replacer
 ========
 
-CakePHP output replacements
+Provides a simple graphical interface to replace strings in CakePHP's output using regular expressions. 
+
+Possible usages :
+- Format text (ex : m2 => m², mysql => MySQL, cAkePHp => CakePHP...)
+- Add code to every page (</body> => <script>analytics();</script></body>)
+- ...
 
 Setup
 -----
