@@ -5,7 +5,8 @@ Provides a simple graphical interface to replace strings in CakePHP's output usi
 
 Possible usages :
 - Format text (ex : m2 => m², mysql => MySQL, cAkePHp => CakePHP...)
-- Add code to every page (</body> => <script>analytics();</script></body>)
+- Add code to every page (&lt;/body> => &lt;script>analytics();&lt;/script>&lt;/body>)
+- Add a CDN to remote assets (src="js/script.js" => src="http://cdn.example.com/js/script.js")...
 - ...
 
 Setup
