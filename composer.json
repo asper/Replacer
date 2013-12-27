@@ -1,0 +1,6 @@
+{
+    "name": "asper/replacer",
+    "type": "cakephp-plugin",
+    "description" : "CakePHP output string replacement",
+    "keywords": ["cakephp"]
+}
