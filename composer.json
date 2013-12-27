@@ -2,5 +2,6 @@
     "name": "asper/replacer",
     "type": "cakephp-plugin",
     "description" : "CakePHP output string replacement",
+    "license": "MIT",
     "keywords": ["cakephp"]
 }
